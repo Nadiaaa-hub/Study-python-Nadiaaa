@@ -8,7 +8,7 @@ num_4 = False
 print(type(num_4))
 num_5 = [3, 7, 9.8, 'Gatcha']
 print(type(num_5))
-num_6 = {'Name':'Nadia', 'Age': '18', 'Palce': 'Kyiv'}
+num_6 = {'Name':'Nadia', 'Age': '18', 'Place': 'Kyiv'}
 print(type(num_6))
 num_7 = (4, 8, 4/6, 'Meow')
 print(type(num_7))
@@ -30,7 +30,7 @@ string_join = (''. join(split_test))
 print (''. join(string_join))
 print(len('string_join'))
 
-list_append = [1, 2, 3]
+list_append= [1, 2, 3]
 list_append.append(4)
 list_append.append(5)
 print (list_append)
@@ -48,3 +48,12 @@ print (dict_test['where'])
 print (dict_test.keys())
 print (dict_test.values())
 print (dict_test.items())
+
+User = 'Nadia'
+Age = 18
+print (User, Age)
+
+
+
+
+
